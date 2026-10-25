@@ -1,0 +1,101 @@
+
+p {
+    font-family: roboto,sans-serif;
+}
+h1,h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+   
+body {
+    margin-left: 30px;
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+   url(mybg.jpg) ;
+   background-size: 100% 150%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   color: white;
+}
+
+.head {
+    position: relative;
+    width: 100%;
+    min-height: 120px;
+    
+}
+
+.profile {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.profile img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    max-width: 100%;
+    border-radius: 53px;
+    border: 2px solid blue;
+}
+
+.port {
+    position: absolute;
+    top: 0;
+    left: 55%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.port h1 {
+    margin: 0;
+    font-size: 60px;
+    white-space: nowrap;
+    margin-top: 10px;
+}
+
+@media (max-width: 480px) {
+    .head {
+        min-height: 160px;
+    }
+
+    .port {
+        top: 110px;
+    }
+}
+.nav-link{
+  display:flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 20px;
+}
+.nav-btn {
+    border-radius: 20px;
+    background-color: red;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    border: 1px solid red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.nav-btn:hover {
+    background: transparent;
+    font-size: 18px;
+    border: 2px solid red;
+}
+footer {
+    text-align: center;
+}
+.zoom {
+    transition: 0.5s;
+}
+.zoom:hover {
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 5px;
+    padding-left: 15px;
+}
