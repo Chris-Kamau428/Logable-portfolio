@@ -89,13 +89,21 @@ body {
 }
 footer {
     text-align: center;
+    font-family: "Pacifico",cursive;
 }
 .zoom {
-    transition: 0.5s;
+    transition: 0.3s;
 }
 .zoom:hover {
     border: 1px solid red;
     border-radius: 15px;
     padding: 5px;
     padding-left: 15px;
+}
+#projects:hover {
+    padding-bottom: 15px;
+}
+dd {
+    font-size: 20px;
+    font-family: "Dancing Script",cursive;
 }

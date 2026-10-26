@@ -1,8 +1,31 @@
-body {
+.intro {
+    position: relative;
+   text-align: center;
+    color: aliceblue;
+    font-size: 28px;
+    font-family: "Black Ops One", serif;
+    letter-spacing: 2px;
+   margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 15px;
+  
+}
+img {
+    position: relative;
+    border-radius: 600px;
+    border: 2px solid blue;
+    margin: 0;
+}
+.Ordeal {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+}
+body{
 background-image: 
 url(loginbg.jpg);
 background-size: 100% 150% ;
@@ -23,7 +46,7 @@ padding: 0 0px 30px;
     padding: 20px ;
     color: aliceblue;
     border: 1px solid red;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(10px);
     align-items: center;
 
 }
@@ -125,4 +148,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 font-weight: 100;
 color: blue;
 font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.hidden {
+    ;
 }
