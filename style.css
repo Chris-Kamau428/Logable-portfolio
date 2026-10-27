@@ -1,0 +1,157 @@
+.intro {
+    position: relative;
+   text-align: center;
+    color: aliceblue;
+    font-size: 28px;
+    font-family: "Black Ops One", serif;
+    letter-spacing: 1px;
+   margin: 0;
+    padding: 0;
+    gap: 15px;
+  
+}
+img {
+    position: relative;
+    border-radius: 600px;
+    border: 2px solid blue;
+    margin: 0;
+}
+.Ordeal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+body{
+background-image: 
+url(loginbg.jpg);
+background-size: 100% 150% ;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.Login {
+text-align: center;
+padding: 0 0px 30px;
+}
+.wraper {
+    position: relative;
+    background: transparent;
+    min-width: 60vh;
+    min-height: 60vh;
+    border-radius: 20px;
+    padding: 20px ;
+    color: aliceblue;
+    border: 1px solid red;
+    backdrop-filter: blur(10px);
+    align-items: center;
+    transition: 0.3s;
+}
+.wraper:hover {
+    box-shadow: 2px 2px 8px 3px red;
+}
+.input {
+    text-align: center;
+}
+.Login h1 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+.btn {
+    border-radius: 35px;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    padding: 5px;
+    height: 40px;
+    min-width: 400px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#button:hover {
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: transparent;
+    border: 3px solid red;
+    color: aliceblue;
+}
+#button:active {
+    box-shadow: 2px 2px 8px red;
+}
+.data {
+    font-size: 16px;
+    width: 80%;
+    background:transparent ;
+    border: 1px solid red;
+    border-radius: 10px;
+    min-height:30px ;
+    color: aliceblue;
+    text-align: left;
+    padding: 0 20px;
+    transition: 0.5s;
+}
+.data:hover {
+  background: transparent;
+    border: 3px solid red;
+}
+.pass {
+    font-size: 16px;
+     width: 80%;
+     background:transparent ;
+    border: 1px solid red;
+    border-radius: 10px;
+    min-height: 30px;
+    color: aliceblue;
+    padding: 0 20px;
+    transition: 0.5s;
+}
+.pass:hover {
+  background: transparent;
+    border: 3px solid red;
+}
+.reg.log {
+    display: flex;
+    justify-content: space-between;
+}
+.uncheck {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#icon1 {
+    position: absolute;
+    right: 60px;
+    top: 39%;
+    transform: translateY(-30%);
+}
+
+
+#icon2 {
+    position: absolute;
+    right: 60px;
+    transform: translateY(-30%);
+    top: 50%;
+ 
+}
+.check {
+    margin-left: 20px;
+}
+.link {
+    margin-right: 20px;
+}
+#link2 {
+font-weight: 100;
+color: blue;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#forgot {
+font-weight: 100;
+color: blue;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.hidden {
+    ;
+}
