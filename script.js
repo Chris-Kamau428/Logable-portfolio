@@ -2,6 +2,14 @@
 const CORRECT_USERNAME = "Chris Gidy"; 
 const CORRECT_PHONE = "0768234373"; 
 
+/*For multiple valid log in details, we use:
+
+ const VALID_ACCOUNTS = {
+    "Admin":  "0123456789",
+    "John":   "0987654321",
+    "Sarah":  "0111222333"
+};  */
+
 const loginBtn = document.getElementById('button');
 const usernameInput = document.getElementById('Your-name');
 const phoneInput = document.getElementById('pass');
