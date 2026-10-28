@@ -4,12 +4,9 @@
     color: aliceblue;
     font-size: 28px;
     font-family: "Black Ops One", serif;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
    margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
     gap: 15px;
   
 }
@@ -23,7 +20,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    
 }
 body{
 background-image: 
@@ -32,6 +29,7 @@ background-size: 100% 150% ;
 background-position: center;
 background-repeat: no-repeat;
 background-attachment: fixed;
+margin: 0;
 }
 .Login {
 text-align: center;
@@ -48,7 +46,10 @@ padding: 0 0px 30px;
     border: 1px solid red;
     backdrop-filter: blur(10px);
     align-items: center;
-
+    transition: 0.3s;
+}
+.wraper:hover {
+    box-shadow: 2px 2px 8px 3px red;
 }
 .input {
     text-align: center;
@@ -77,6 +78,9 @@ padding: 0 0px 30px;
     background: transparent;
     border: 3px solid red;
     color: aliceblue;
+}
+#button:active {
+    box-shadow: 2px 2px 8px red;
 }
 .data {
     font-size: 16px;
